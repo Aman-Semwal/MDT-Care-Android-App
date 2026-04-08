@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sensor_test"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="@color/darkText"
+            android:layout_marginBottom="6dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sensor_test_desc"
+            android:textSize="14sp"
+            android:textColor="@color/subText"
+            android:layout_marginBottom="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <Button
+                android:id="@+id/btnAccelerometer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/accelerometer"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:background="@drawable/button_dashboard"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/btnGyroscope"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gyroscope"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:background="@drawable/button_dashboard"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/btnProximity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/proximity"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:background="@drawable/button_dashboard"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/btnLight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/light_sensor"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:background="@drawable/button_dashboard"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/btnMagnetometer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/magnetometer"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:background="@drawable/button_dashboard"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="18dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sensor_output"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/darkText"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/tvSensorOutput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sensor_start_instruction"
+                android:textSize="16sp"
+                android:textColor="@color/darkText"
+                android:lineSpacingExtra="6dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

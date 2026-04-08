@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">application7</string>
+    <string name="mdt_care">MDT Care</string>
+    <string name="app_description">Mobile Diagnostic Tool for Android</string>
+    <string name="app_sub_description">Check device info, battery, sensors, storage and final health report</string>
+    <string name="diagnostic_modules">Diagnostic Modules</string>
+    <string name="device_info">Device Information</string>
+    <string name="battery_network">Battery &amp; Network</string>
+    <string name="sensor_test">Sensor Test</string>
+    <string name="storage_memory">Storage &amp; Memory</string>
+    <string name="final_report">Final Diagnostic Report</string>
+    <string name="device_info_desc">Basic hardware and software details of the phone</string>
+    <string name="battery_network_desc">View battery health and network status</string>
+    <string name="sensor_test_desc">Test available sensors and see live values</string>
+    <string name="storage_memory_desc">Internal storage and RAM details</string>
+    <string name="final_report_desc">Combined summary of the device health check</string>
+    <string name="accelerometer">Accelerometer</string>
+    <string name="gyroscope">Gyroscope</string>
+    <string name="proximity">Proximity</string>
+    <string name="light_sensor">Light Sensor</string>
+    <string name="magnetometer">Magnetometer</string>
+    <string name="sensor_output">Sensor Output</string>
+    <string name="sensor_start_instruction">Tap any sensor button to start the test.</string>
+    <string name="loading">Loading…</string>
+</resources>
